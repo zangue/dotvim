@@ -27,8 +27,13 @@ set autoindent                          " Auto-indent new lines
 set expandtab                           " Use spaces instead of tabs
 set smartindent                         " Enable smart-indent
 set smarttab                            " Enable smart-tabs
-set softtabstop=8                       " Number of spaces per Tab
- 
+"set softtabstop=8                       " Number of spaces per Tab
+set softtabstop=0                       " Number of spaces per Tab
+set tabstop=8
+set expandtab
+set shiftwidth=4
+set smarttab
+
 " Advanced
 set confirm                             " Prompt confirmation dialogs
 set ruler                               " Show row and column ruler information
